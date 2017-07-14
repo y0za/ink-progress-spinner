@@ -1,6 +1,9 @@
 # ink-progress-spinner
 > Progress spinner component for [Ink](https://github.com/vadimdemedes/ink)
 
+## Demo
+![](https://raw.githubusercontent.com/y0za/assets/master/ink-progress-spinner/demo.gif)
+
 ## Props
 
 ### characters

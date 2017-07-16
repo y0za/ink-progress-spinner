@@ -67,27 +67,17 @@ class ProgressSpinner extends Component {
     this.state = {
       index: 0
     };
-    this.defaultDelay = 60;
-    this.defaultCharacters = spinners[28].split('');
     this.intervalID = null;
   }
 
   componentDidMount() {
-    const {
-      delay = this.defaultDelay
-    } = this.props;
-
     this.intervalID = setInterval(() => {
-      const {
-        characters = this.defaultCharacters
-      } = this.props;
-
       var index = this.state.index + 1;
-      if (index >= characters.length) {
+      if (index >= this.props.characters.length) {
         index = 0;
       }
       this.setState({ index });
-    }, delay);
+    }, this.props.delay);
   }
 
   componentWillUnmount() {
@@ -97,14 +87,16 @@ class ProgressSpinner extends Component {
   }
 
   render() {
-    const {
-      characters = this.defaultCharacters
-    } = this.props;
-    const character = characters[this.state.index];
+    const character = this.props.characters[this.state.index];
 
     return h(Text, {}, character);
   }
 }
+
+ProgressSpinner.defaultProps = {
+  characters: spinners[28].split(''),
+  delay: 60
+};
 
 module.exports = {
   ProgressSpinner,

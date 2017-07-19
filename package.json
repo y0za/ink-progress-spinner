@@ -2,7 +2,7 @@
   "name": "ink-progress-spinner",
   "version": "1.0.0",
   "description": "Progress spinner component for Ink",
-  "main": "index.js",
+  "main": "src/index.js",
   "author": "y0za",
   "license": "MIT",
   "devDependencies": {

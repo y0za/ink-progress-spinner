@@ -6,6 +6,6 @@
   "author": "y0za",
   "license": "MIT",
   "devDependencies": {
-    "ink": "^0.2.1"
+    "ink": "^0.3.0"
   }
 }

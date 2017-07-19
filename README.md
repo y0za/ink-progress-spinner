@@ -4,6 +4,11 @@
 ## Demo
 ![](https://raw.githubusercontent.com/y0za/assets/master/ink-progress-spinner/demo.gif)
 
+## Install
+```console
+$ npm install ink-progress-spinner
+```
+
 ## Props
 
 ### characters

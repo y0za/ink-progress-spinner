@@ -2,9 +2,17 @@
   "name": "ink-progress-spinner",
   "version": "1.0.0",
   "description": "Progress spinner component for Ink",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/y0za/ink-progress-spinner.git"
+  },
   "main": "src/index.js",
   "author": "y0za",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/y0za/ink-progress-spinner/issues"
+  },
+  "homepage": "https://github.com/y0za/ink-progress-spinner#readme",
   "devDependencies": {
     "ink": "^0.3.0"
   }

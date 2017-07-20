@@ -26,7 +26,8 @@
  * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-const {h, Text, Component} = require('ink');
+const { h, Text, Component } = require('ink');
+const { omitProperties } = require('./util');
 
 const spinners = [
   '|/-\\',
@@ -88,8 +89,9 @@ class ProgressSpinner extends Component {
 
   render() {
     const character = this.props.characters[this.state.index];
+    const diffProps = omitProperties(this.props, ['characters', 'delay']);
 
-    return h(Text, {}, character);
+    return h(Text, diffProps, character);
   }
 }
 

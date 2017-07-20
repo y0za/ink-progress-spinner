@@ -2,6 +2,9 @@
   "name": "ink-progress-spinner",
   "version": "1.0.0",
   "description": "Progress spinner component for Ink",
+  "scripts": {
+    "test": "ava test/**/*.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/y0za/ink-progress-spinner.git"

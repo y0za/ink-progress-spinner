@@ -14,6 +14,7 @@
   },
   "homepage": "https://github.com/y0za/ink-progress-spinner#readme",
   "devDependencies": {
+    "ava": "^0.21.0",
     "ink": "^0.3.0"
   }
 }

@@ -1,4 +1,4 @@
-# ink-progress-spinner
+# ink-progress-spinner [![CircleCI](https://circleci.com/gh/y0za/ink-progress-spinner.svg?style=svg)](https://circleci.com/gh/y0za/ink-progress-spinner)
 > Progress spinner component for [Ink](https://github.com/vadimdemedes/ink)
 
 ## Demo

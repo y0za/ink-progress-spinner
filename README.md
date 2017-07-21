@@ -27,5 +27,8 @@ Default: `60`
 
 The time, in milliseconds, is used as render interval.
 
+
+ProgressSpinner supports [Text component](https://github.com/vadimdemedes/ink/blob/master/lib/components/text.js) props. Text component uses [chalk](https://github.com/chalk/chalk), and you could use its API methods as ProgressSpinner props.
+
 ## License
 MIT License

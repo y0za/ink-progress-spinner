@@ -9,6 +9,21 @@
 $ npm install ink-progress-spinner
 ```
 
+## Usage
+```javascript
+const {h, render, Text} = require('ink');
+const {ProgressSpinner, spinners} = require('ink-progress-spinner');
+
+const characters = spinners[20].split('');
+
+render(
+  <div>
+    <ProgressSpinner characters={characters} blue />
+    <Text> Something loading...</Text>
+  </div>
+);
+```
+
 ## Props
 
 ### characters

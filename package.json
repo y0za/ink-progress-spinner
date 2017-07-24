@@ -1,6 +1,6 @@
 {
   "name": "ink-progress-spinner",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Progress spinner component for Ink",
   "scripts": {
     "test": "ava test/**/*.js"

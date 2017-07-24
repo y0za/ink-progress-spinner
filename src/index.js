@@ -27,6 +27,7 @@
  */
 
 const { h, Text, Component } = require('ink');
+const PropTypes = require('prop-types');
 const { omitProperties } = require('./util');
 
 const spinners = [
@@ -99,6 +100,11 @@ ProgressSpinner.defaultProps = {
   characters: spinners[28].split(''),
   delay: 60
 };
+
+ProgressSpinner.propTypes = {
+  characters: PropTypes.arrayOf(PropTypes.string),
+  delay: PropTypes.number
+}
 
 module.exports = {
   ProgressSpinner,

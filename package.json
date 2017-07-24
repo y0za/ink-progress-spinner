@@ -19,5 +19,8 @@
   "devDependencies": {
     "ava": "^0.21.0",
     "ink": "^0.3.0"
+  },
+  "dependencies": {
+    "prop-types": "^15.5.10"
   }
 }
